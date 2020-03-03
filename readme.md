@@ -86,7 +86,7 @@ deletePlane(2)
 deletePlane(3)
 deletePlane(4)
 ```
-Here we allocate 5 planes the first 4 planes allocate 7 chunks of size 0x200 and the final 0x200 chuck will end up in the 0x210 unsorted bin as show bellow.
+Here we allocate 5 planes the first 4 planes allocate 7 chunks of size 0x210 and the final 0x200 chuck will end up in the 0x210 unsorted bin as show bellow.
 
 ![Kiku](images/unsorted.png)
 
@@ -194,7 +194,7 @@ to install and run docker image:
 
 Now we are hosting a server running the plane_market executable at port 1024.
 
-and to execute the exploit against the docker container just run `./exploit.sh` :-)
+To execute the exploit against the docker container just run `./exploit.sh` :-)
 
 ### debugging the exploit
 
